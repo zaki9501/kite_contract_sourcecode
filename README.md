@@ -34,6 +34,7 @@ Websites and Apps:
 - Payouts are denominated in USD and paid in USDC.
 - Bounty payouts will be processed after a 30‑day waiting period following the public deployment and announcement of a fix. This applies to all severity levels.
 
+**KYC required for payout:** If your bounty submission meets the criteria for a reward, you must complete [Certification (ID verification)](https://docs.code4rena.com/roles/certification-id-verification)
 ---
 
 ## **Quick Links**
