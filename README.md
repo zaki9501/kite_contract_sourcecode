@@ -13,7 +13,7 @@ Ultimately, when we launch the bug bounty, this repo will be made public and wil
 
 - [ ] Modify the contents of this README.md file. Describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing.
 
-# [Project] Bug Bounty
+# Kite AI Bug Bounty
 
 [⚡️**Project:** Please add award levels below:]
 
@@ -125,6 +125,6 @@ Any **previously reported** vulnerabilities mentioned in past audit reports are 
 
 
 ### Miscellaneous
-Employees of [Insert Project Name] and their family members are ineligible for bounties.
+Employees of Kite AI and their family members are ineligible for bounties.
 
 Reward amounts may be displayed using a dollar sign for simplicity, but the underlying valuation is based on a USD-pegged digital asset such as USDC. Because the displayed figure reflects a USD reference value rather than a fiat currency payment, the final amount delivered in the corresponding token may differ slightly at the time of payout.
