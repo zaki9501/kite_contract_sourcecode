@@ -11,7 +11,7 @@ Powering AI agents with an EVM‑compatible payment chain for autonomous, onchai
 
 [**Read our guidelines for more details**](https://docs.code4rena.com/bounties)
 
-Submit findings [**using the C4 form**](https://code4rena.com/bounties/submit)
+Submit findings [**using the C4 form**](https://code4rena.com/bounties/KiteAI/submit)
 
 This is a managed bug bounty program. All triage, severity assessment, and award recommendations are performed by independent Code4rena judges, according to the standard C4 judging and bounty criteria.
 
@@ -40,9 +40,8 @@ Websites and Apps:
 
 ## **Quick Links**
 
-[**Judging for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-judging)
-
-[**Criteria for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-criteria)
+[**Judging for C4 Bug Bounties**](https://docs.code4rena.com/bounties#judging-process-for-code4rena-bug-bounties)
+[**Severity Classifications for C4 Bug Bounties**](https://docs.code4rena.com/bounties/bounty-criteria)
 
 ---
 
@@ -75,8 +74,8 @@ Twitter: [**https://twitter.com/GoKiteAI**](https://twitter.com/GoKiteAI)
 
 The bounty covers vulnerabilities in the in‑scope assets listed below, evaluated according to the standard Code4rena bounty criteria:
 
-- [**Judging for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-judging)
-- [**Criteria for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-criteria)
+- [**Judging for C4 Bug Bounties**](https://docs.code4rena.com/bounties#judging-process-for-code4rena-bug-bounties)
+- [**Severity Classifications for C4 Bug Bounties**](https://docs.code4rena.com/bounties/bounty-criteria)
 
 Only impacts that meet those criteria and affect the assets in the “Smart contracts in scope” and “Websites and apps in scope” sections will be eligible for rewards. All other impacts are considered out of scope for this program.
 
@@ -158,7 +157,7 @@ The following types of issues are excluded from rewards for this bug bounty prog
 
 For full details on in‑scope versus out‑of‑scope impact categories, see:
 
-- [**Criteria for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-criteria)
+- [**Severity Classifications for C4 Bug Bounties**](https://docs.code4rena.com/bounties/bounty-criteria)
 
 ---
 
