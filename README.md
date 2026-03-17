@@ -1,130 +1,179 @@
-# Welcome to your bounty repo
-
-This file contains information around how to set-up your README.md and prepare for our collaboration.
-
-**Bug Bounties use two repos**:
-
-- a bug bounty repo (this one), which is used for scoping your bug bounty and for providing information to wardens
-- a submissions repo, where issues are submitted
-
-Ultimately, when we launch the bug bounty, this repo will be made public and will contain links to the in-scope files to be reviewed and all the information needed for bounty participants.
-
-**Action item for sponsors:**
-
-- [ ] Modify the contents of this README.md file. Describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing.
-
 # Kite AI Bug Bounty
+### KiteAI
 
-[⚡️**Project:** Please add award levels below:]
+Powering AI agents with an EVM‑compatible payment chain for autonomous, onchain transactions.
 
-**Option 1:**
+**$10,000 in USDC MAX BOUNTY**
 
-| Risk Score |  Payout |
-|------------|---------|
-| Critical | $[Insert Amount] |
-| High| $[Insert Amount] |
+---
 
+## **KiteAI Bug Bounty Details**
 
-**Option 2:**
+[**Read our guidelines for more details**](https://docs.code4rena.com/bounties)
 
-- **Until TVL exceeds $[Insert Amount]:**
-    - Max Critical Payout: $[Insert Amount] USDC/USDT/Other
-    - High Severity Payout: $[Insert Amount] USDC/USDT/Other
-- **After TVL exceeds $[Insert Amount]:**
-    - Max Critical Payout: $[Insert Amount] USDC/USDT/Other
-    - High Severity Payout: $[Insert Amount] USDC/USDT/Other
+Submit findings [**using the C4 form**](https://code4rena.com/bounties/submit)
 
-## Background on [⚡️ Insert Project Name]
+This is a managed bug bounty program. All triage, severity assessment, and award recommendations are performed by independent Code4rena judges, according to the standard C4 judging and bounty criteria.
 
-### What Is [⚡️ Insert Project Name]?
+Smart Contracts:
 
-[⚡️ **Project**: Add a short overview of the project here.]
+| **Risk score** | **Payout (USDC)** |
+| --- | --- |
+| Critical | Up to **$10,000** |
+| High | Up to **$2,000** |
 
-### How Does It Work?
+Websites and Apps:
 
-[⚡️ **Project**: Add a high-level technical overview of the project here]
+| **Risk score** | **Payout (USDC)** |
+| --- | --- |
+| Critical | Up to **$10,000** |
+| High | Up to **$2,000** |
 
-### Further Technical Resources & Links
+**Payment terms**
 
-[⚡️ **Project**: Please fill out the following information] 
+- Payouts are denominated in USD and paid in USDC.
+- Bounty payouts will be processed after a 30‑day waiting period following the public deployment and announcement of a fix. This applies to all severity levels.
 
-- **[Project Name] Docs**: Our system documentation, subject to change. [[Link]()]
-- **[Project Name] Whitepaper**: [Link]()
-- **[Project Name] Website**: [Link]()
-- **Twitter**: [@]()
-- **Discord** [Insert Discord handle here]()
+---
 
-# Scope & Severity Criteria
+## **Quick Links**
 
-[⚡️ **Project**: Please insert any valid information around scope and severity criterias here]
+[**Judging for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-judging)
 
-**Option 1:**
+[**Criteria for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-criteria)
 
-| Severity level | Impact: High	| Impact: Medium | Impact: Low
-|------|-------| -------------- |-------------- |
-| Likelihood: High	 | Critical | High | - |
-| Likelihood: Medium | High | - | - |
-| Likelihood: Low    | - | - | - |
+---
 
-**Option 2:**
+## **Background on KiteAI**
 
-| Severity level | >[Add percentage]% TVL	| [Add percentage]% TVL | <[Add percentage]% TVL
-|------|-------| -------------- |-------------- |
-| Likelihood: High	 | Critical | High | - |
-| Likelihood: Medium | Critical | High or Critical | High |
-| Likelihood: Low    | High or Critical | High | - |
+Kite is the first AI payment blockchain, an EVM‑compatible Layer 1 built specifically for the AI agent economy. It provides cryptographic identity, programmable payment flows, and support for stablecoins and the KITE token so autonomous agents can authenticate and transact onchain.
 
+This bug bounty program is focused on KiteAI’s smart contracts and production web properties, with a focus on preventing:
 
-## Smart Contracts in Scope
+- Loss of protocol or user funds
+- Smart contract vulnerabilities impacting the KITE token or payment flows
+- Denial of service issues for core protocol contracts
+- Critical infrastructure vulnerabilities on gokite.ai
 
-[⚡️ **Project**: Please fill in the Source and any scoping information that you deam necessary. In case you need more than one table, please copy the existing and multiply as needed]
+---
 
+## **Further Technical Resources and Links**
 
-**Source**: [Insert codebase source here]()
+Kite Docs: [**https://docs.gokite.ai**](https://docs.gokite.ai/)
 
-| Name (Address Link) | Repo |
-|------|-------|
-| [Sentinel](https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984) | github.com/sentinel-org/sentinel-evm |
-| [SentinelOne](https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984)| github.com/sentinel-org/sentinel-oracles |
-| [SentinelTwo](https://etherscan.io/address/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72) | github.com/sentinel-org/sentinel-rewards | 
+Kite Smart Contracts List: [**https://docs.gokite.ai/kite-chain/3-developing/smart-contracts-list**](https://docs.gokite.ai/kite-chain/3-developing/smart-contracts-list)
 
+Kite Website: [**https://gokite.ai**](https://gokite.ai/)
 
-## Out-of-Scope
+Twitter: [**https://twitter.com/GoKiteAI**](https://twitter.com/GoKiteAI)
 
-### Known Issues
+---
 
-Bug reports covering previously-discovered bugs (listed below) are not eligible for a reward within this program. This includes known issues that the project is aware of but has consciously decided not to “fix”, necessary code changes, or any implemented operational mitigating procedures that can lessen potential risk. Every issue opened in the repo, closed PRs, previous contests and audits are out of scope.
+## **Scope and Severity Criteria**
 
-[⚡️**Project:** Please provide any relevant links in a bullet format below:]
+The bounty covers vulnerabilities in the in‑scope assets listed below, evaluated according to the standard Code4rena bounty criteria:
 
+- [**Judging for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-judging)
+- [**Criteria for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-criteria)
 
-### Previous Audits
+Only impacts that meet those criteria and affect the assets in the “Smart contracts in scope” and “Websites and apps in scope” sections will be eligible for rewards. All other impacts are considered out of scope for this program.
 
-Any **previously reported** vulnerabilities mentioned in past audit reports are not eligible for a reward.
+KiteAI and the independent judges will determine final severity and payout amounts.
 
-[⚡️ **Project Name**] previous audits can be found below: [Please insert a link to your previous audits.]
+---
 
+## **Smart Contracts in Scope**
 
-### Specific Types of Issues
+Rewards for smart contract vulnerabilities are for issues in the following contracts only.
 
-**An example of that would be the following:**
+## **Ethereum**
 
-- Informational findings.
-- Design choices related to protocol. For example, the ability to deploy permissionless pools.
-- Issues that are ultimately user errors and can easily be caught in the frontend. For example, transfers to address(0).
-- Rounding errors.
-- Relatively high gas consumption.
+- KITE token contract
+    - `0x904567252D8F48555b7447c67dCA23F0372E16be` (KITE ERC‑20 token)
 
-[⚡️**Project:** Please add any specific types of issues that should be considered out-of-scope.]
+## **Kite Mainnet**
 
-# Additional Context
+The following Kite Mainnet contracts are in scope. Names and roles are to be confirmed by the KiteAI team.
 
-### Trusted Roles
+- `0xd26850d11e8412fC6035750BE6A871dff9091FAe`
+- `0x065cA4309a5abc9F1cC2d8fA00634BC948C25C6b`
+- `0x7d627b0F5Ec62155db013B8E7d1Ca9bA53218E82`
+- `0x171eefa30E88f9bca456CEf49c5Df093A516C7c2`
+- `0xcc788DC0486CD2BaacFf287eea1902cc09FbA570`
 
-[⚡️ **Project**: Please explain your protocol's trusted roles.]
+Source code for these contracts is available in KiteAI’s GitHub organization:
 
+[**https://github.com/gokite-ai**](https://github.com/gokite-ai)
 
-### Miscellaneous
-Employees of Kite AI and their family members are ineligible for bounties.
+Payouts are handled by the KiteAI team and denominated in USDC. Payouts will be made in USDC (on Ethereum or Kite Mainnet, as determined by KiteAI).
 
-Reward amounts may be displayed using a dollar sign for simplicity, but the underlying valuation is based on a USD-pegged digital asset such as USDC. Because the displayed figure reflects a USD reference value rather than a fiat currency payment, the final amount delivered in the corresponding token may differ slightly at the time of payout.
+---
+
+## **Websites and Apps in Scope**
+
+The following web assets are in scope for this bug bounty program:
+
+- All production properties under `.gokite.ai`
+    - Including, for example, the main application at [**https://gokite.ai**](https://gokite.ai/) and any hosted dashboards or configuration interfaces
+
+Staging, test, and non‑production environments are not in scope unless explicitly added by KiteAI.
+
+---
+
+## **Out of Scope**
+
+The following are out of scope for this program, in addition to anything excluded by Code4rena’s standard bounty criteria:
+
+- Contracts and applications not listed in the “Smart contracts in scope” or “Websites and apps in scope” sections
+- Vulnerabilities previously identified in public audits or security reports for KiteAI
+- Purely informational findings without demonstrable security impact, as per C4 criteria
+- Any issues already known to KiteAI at the time of submission
+
+KiteAI may maintain a public list of known issues and closed reports. Any item on that list is automatically out of scope for bounty rewards.
+
+---
+
+## **Previous Audits**
+
+Issues reported in past audits are out of scope and not eligible for rewards.
+
+- Halborn – GoKite Contracts Audit (2025)
+- Halborn – Kite Core Contracts Audit (2025)
+
+KiteAI may add additional audits here over time.
+
+---
+
+## **Specific Types of Issues**
+
+The following types of issues are excluded from rewards for this bug bounty program unless they directly lead to one of the accepted impact types in the Code4rena criteria:
+
+- Attacks that the reporter has already exploited for profit or used for personal gain
+- Attacks requiring access to compromised private keys or leaked credentials
+- Attacks that require full control of a trusted admin or governance key without an underlying code vulnerability
+- Generic best‑practice hardening suggestions without concrete exploitability
+- Issues only affecting non‑production environments
+
+For full details on in‑scope versus out‑of‑scope impact categories, see:
+
+- [**Criteria for C4 Bug Bounties**](https://docs.code4rena.com/awarding/judging-criteria/bounty-criteria)
+
+---
+
+## **Prohibited Activities**
+
+The following activities are strictly prohibited under this bug bounty program:
+
+- Any testing directly on Ethereum or Kite Mainnet that risks real user funds
+- Any testing involving third‑party contracts or oracles outside of the listed in‑scope assets
+- Phishing or social engineering attacks against KiteAI team members or users
+- Attacks against, or use of, third‑party infrastructure or services (for example, cloud providers, analytics, or email providers)
+- Denial of service attacks against KiteAI infrastructure
+- Automated scanning or fuzzing that generates excessive traffic or degrades service for real users
+- Public disclosure of an unpatched vulnerability before KiteAI and Code4rena have confirmed remediation
+
+---
+
+## **Additional Context**
+
+Current and past employees or contractors of KiteAI and their family members are not eligible for rewards from this bug bounty program.
