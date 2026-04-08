@@ -48,25 +48,7 @@ This bug bounty program is focused on KiteAI’s smart contracts and production 
 
 ## Smart Contracts in Scope
 
-[⚡️ Project: Please fill any additional Source and scoping information that you deam necessary into the tables below:]
-
-Source: https://github.com/gokite-ai
-
-### Ethereum
-
-| Name | Mainnet address |
-| ----- | ----- |
-| KITE token contract | `0x904567252D8F48555b7447c67dCA23F0372E16be` (KITE ERC‑20 token) |
-
-### Kite Mainnet
-
-| Name | Mainnet address |
-| ----- | ----- |
-| - | `0xd26850d11e8412fC6035750BE6A871dff9091FAe` |
-| - | `0x065cA4309a5abc9F1cC2d8fA00634BC948C25C6b` |
-| - | `0x7d627b0F5Ec62155db013B8E7d1Ca9bA53218E82` |
-| - | `0x171eefa30E88f9bca456CEf49c5Df093A516C7c2` |
-| - | `0xcc788DC0486CD2BaacFf287eea1902cc09FbA570` |
+Source: https://docs.gokite.ai/kite-chain/3-developing/smart-contracts-list
 
 ## Websites and Apps in Scope
 
