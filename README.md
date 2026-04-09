@@ -83,7 +83,7 @@ Kite AI may add additional audits here over time.
 
 The following types of issues are excluded from rewards for this bug bounty program unless they directly lead to one of the accepted impact types in the Code4rena criteria:
 
-- Attacks that the reporter has already exploited for profit or used for personal gain.
+- Attacks that have been already exploited in a public main or test net.
 - Attacks requiring access to compromised private keys or leaked credentials.
 - Attacks that require full control of a trusted admin or governance key without an underlying code vulnerability.
 - Generic best‑practice hardening suggestions without concrete exploitability.
