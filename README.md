@@ -22,12 +22,9 @@
 
 ## Background on Kite AI
 
-[⚡️ Project: Please review/update the short overview of the project below:]
-
 Kite AI is the first AI payment blockchain, an EVM‑compatible Layer 1 built specifically for the AI agent economy. It provides cryptographic identity, programmable payment flows, and support for stablecoins and the KITE token so autonomous agents can authenticate and transact onchain.
 
 ### How Does It Work?
-[⚡️ Project: Optional: add a high-level technical overview of the project here:]
 
 This bug bounty program is focused on KiteAI’s smart contracts and production web properties, with a focus on preventing:
 - Loss of protocol or user funds
@@ -44,13 +41,11 @@ This bug bounty program is focused on KiteAI’s smart contracts and production 
 
 ## Scope and Severity Criteria
 
-[⚡️ Project: Please insert any valid information around scope and severity criterias here]
-
-## Smart Contracts in Scope
+### Smart Contracts in Scope
 
 Source: https://docs.gokite.ai/kite-chain/3-developing/smart-contracts-list
 
-## Websites and Apps in Scope
+### Websites and Apps in Scope
 
 - All production properties under [.gokite.ai](https://gokite.ai/)
     - Including, for example, the main application and any hosted dashboards or configuration interfaces.
@@ -79,8 +74,6 @@ Kite AI may add additional audits here over time.
 
 ## Specific Types of Issues
 
-[⚡️Project: Please add any other specific types of issues that should be considered out-of-scope.]
-
 The following types of issues are excluded from rewards for this bug bounty program unless they directly lead to one of the accepted impact types in the Code4rena criteria:
 
 - Attacks that have been already exploited in a public main or test net.
@@ -104,9 +97,6 @@ The following activities are strictly prohibited under this bug bounty program:
 - Public disclosure of an unpatched vulnerability before KiteAI and Code4rena have confirmed remediation.
 
 ## Additional Context
-
-### Trusted Roles
-[⚡️ Project: Please explain your protocol's trusted roles.]
 
 ### Miscellaneous
 
